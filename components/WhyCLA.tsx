@@ -255,10 +255,10 @@ export default function WhyCLA() {
 
         {/* CTA - Centered After Section */}
         <div className="flex justify-center mt-16">
-          <a href="/apply">
+          <a href="https://whop.com/clinic-launch-academy/clinic-launch-academy/?utm_source=store_page&funnelId=product_8e92f4fe-d637-4be4-b9d7-9cd558ba82c9">
             <ShimmerButton>
               <span className="flex items-center gap-2">
-                Apply Now
+                Buy Now
                 <ArrowRight className="w-4 h-4" />
               </span>
             </ShimmerButton>
