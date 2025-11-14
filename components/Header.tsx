@@ -58,6 +58,12 @@ export default function Header() {
             {/* CTA Buttons - Far Right (Desktop Only) */}
             <div className="hidden md:flex items-center gap-3">
               <a
+                href="https://app.cliniclaunchacademy.com"
+                className="text-sm font-light text-white/80 hover:text-[#b38d38] transition-colors"
+              >
+                Login
+              </a>
+              <a
                 href="https://whop.com/clinic-launch-academy/clinic-launch-academy/?utm_source=store_page&funnelId=product_8e92f4fe-d637-4be4-b9d7-9cd558ba82c9"
                 className="backdrop-blur-md border border-[#544629] rounded-full px-6 py-2 hover:border-[#b38d38] hover:bg-[#b38d38]/10 transition-all flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white"
                 style={{ backgroundColor: 'rgba(84, 70, 41, 0.15)' }}
@@ -85,6 +91,13 @@ export default function Header() {
                 {item.name}
               </a>
             ))}
+            <a
+              href="https://app.cliniclaunchacademy.com"
+              onClick={() => setMobileMenuOpen(false)}
+              className="mt-4 text-xl font-light text-white/80 hover:text-[#b38d38] transition-colors"
+            >
+              Login
+            </a>
             <a
               href="https://whop.com/clinic-launch-academy/clinic-launch-academy/?utm_source=store_page&funnelId=product_8e92f4fe-d637-4be4-b9d7-9cd558ba82c9"
               onClick={() => setMobileMenuOpen(false)}
